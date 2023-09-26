@@ -33,7 +33,6 @@ function showError() {
 
 function showCatInfo(cat) {
   const { name, description, temperament } = cat[0].breeds[0];
-
   const catInfoHTML = `<div class="cat">
     <img loading="eager" class="cat-img" src="${cat[0].url}" alt="${name} cat"> 
     <div class="cat-container">
