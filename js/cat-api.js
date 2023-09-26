@@ -1,5 +1,6 @@
-const url = 'https://api.thecatapi.com/v1';
-const api_key = "live_LHGZzFAdl2BtnLwbomiBhyI4AhJ4vEuomKW1GU4SKThZJOslkkGvyivoWPM1mULY";
+// const url = 'https://api.thecatapi.com/v1';
+// const api_key = "live_LHGZzFAdl2BtnLwbomiBhyI4AhJ4vEuomKW1GU4SKThZJOslkkGvyivoWPM1mULY";
+const api_key = "live_ks0dBqCXO2npV9inWyGXf5j5ZMhCyMSiLXoMR2uXOc4ZZ1B3rKNtjN1eppx7caIg";
 
 function fetchApi(url) {
     return fetch(url, {
